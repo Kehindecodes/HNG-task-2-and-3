@@ -6,15 +6,14 @@
 body {
 	/* background-image: url(''); */
 	background-position: center center;
-	background-attachment: fixed;
 	background-size: cover;
+	background-repeat: no-repeat;
 	background: linear-gradient(
 			0deg,
 			rgba(20, 20, 60, 0.7),
 			rgba(20, 20, 60, 0.7)
 		),
 		url(./pexels-pixabay-147411.jpg);
-	background-size: cover;
 	font-family: 'Glory', sans-serif;
 	font-size: 1rem;
 	line-height: 1.6;
@@ -38,6 +37,7 @@ body {
 	height: 100%;
 	margin: 4rem auto;
 	border-radius: 10px;
+	height: 100%;
 }
 .logo_wrapper {
 	width: 5rem;
